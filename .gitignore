@@ -1,45 +1,53 @@
 ```
+# Build artifacts
+dist/
+build/
+*.js.map
+*.css.map
+*.d.ts
+
 # Dependencies
 node_modules/
 
-# Build outputs
-dist/
-build/
-coverage/
-htmlcov/
-
-# Logs
-*.log
-
-# Environment variables
+# Environment
 .env
 .env.local
 .env.*
 
-# Python cache
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.Python
+*.so
+.Python
+*.egg-info/
+.eggs/
 
 # Temporary files
 *.tmp
-*.swp
-*.swo
-
-# OS generated files
+*.temp
+*~
 .DS_Store
 Thumbs.db
 
 # Testing
-.mypy_cache/
-.pytest_cache/
-.coverage
-
-# IDE
-.vscode/
-.idea/
-
-# Package manager
-package-lock.json
+.nyc_output/
+coverage/
+junit.xml
 ```
